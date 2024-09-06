@@ -10,7 +10,7 @@ Katie Gamanji (@kgamanji) conducted the due diligence of cert-manager who applie
 
 - A notable stable project with mature capabilities and a wide adopter base.
 - The integration capabilities with Istio, SPIFFE, and other systems are noteworthy, enhancing both security and flexibility.
-- Thorough documentation of build and deployment processes is excellent
+- Thorough documentation of build and deployment processes is excellent.
 - Implementation of the steering committee to capture adopters' voice in the project development and roadmap.
 - The completion of the external security audit by Ada Logics and the project's efforts to address the findings demonstrate a strong commitment to security. All eight identified issues have been addressed, which is commendable.
 - cert-manager has an exceptionally complete [contributing guide](https://cert-manager.io/docs/contributing/), including information about communications, feature approval, expectations, testing, release process, and coding standards.  This is a good example to other projects about what a complete contribution guide should look like.
@@ -20,7 +20,7 @@ Katie Gamanji (@kgamanji) conducted the due diligence of cert-manager who applie
 
 The following actions were provided to the project that were considered blocking but have since been resolved:
 
-- Share steering committee meetings and notes as stated per governance: “All recordings and minutes will be posted publicly”, including  progress, input or impact of the from the committee on the project.
+- Share the steering committee meetings and notes as stated per governance: “All recordings and minutes will be posted publicly”, including  progress, input or impact of the committee on the project.
 - Update the Roadmap to reflect the ongoing work and planned efforts. Also, as part of the governance, document the roadmap change process.
 - Provide an up-to-date list of sub-projects to be included as part of the Graduation evaluation.
 - Provide a RELEASE.md file, including updating the release process to reflect the latest shift to the CNCF infrastructure.
@@ -42,7 +42,7 @@ The following recommendations were provided to the project that are non-blocking
 
 ### Adoption Evaluation
 <!-- (TOC Evaluation goes here) -->
-The adopter interviews reflect the project use for the Graduation level to which the project has applied. They show that the project aims to demystify the concept of TLS and make it approachable for easy consumption. Also, the project is very clear about the functionalities it supports and/or are out of scope, setting pronounced boundaries in its scope and roadmap. In these terms, cert-manager has brought substantial value to adopters, as it provided an opportunity to learn about certificate management and TLS, and automation of manual processes. Overall, the stability of the projects and their API stand out over time, and that builds a strong sense of trust with their adopters.
+The adopter interviews reflect the project use for the Graduation level to which the project has applied. They show that the project aims to demystify the concept of TLS and make it approachable for easy consumption. Also, the project is very clear about the functionalities it supports and/or are out of scope, setting pronounced boundaries in its scope and roadmap. In these terms, cert-manager has brought substantial value to adopters, as it provided an opportunity to learn about certificate management and TLS, and automation of manual processes. Overall, the stability of the projects and their API stand out over time, and that builds a strong sense of trust with its adopters.
 
 ### Final Assessment
 
@@ -70,7 +70,7 @@ Both, TAG Security and TAG Contrib Strategy, are supportive of cert-manager's pr
 
 - TAG Security evaluation can be found in this [comment](https://github.com/cncf/toc/issues/1306#issuecomment-2211472304).
 
-- TAG Contrib Strategy evaluation can be found in this [PR #694: Final draft of Cert-Manager review](https://github.com/cncf/tag-contributor-strategy/pull/694)
+- TAG Contrib Strategy evaluation can be found in this [PR #694: Final draft of Cert-Manager review](https://github.com/cncf/tag-contributor-strategy/pull/694).
 
 
 - [x]  **All project metadata and resources are [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/).**
@@ -86,7 +86,7 @@ The project is self-governing, adhering to the principles of exercising minimal
    - [x] Met during the Project's application on 23-04-2024. [Initial PR](https://github.com/cncf/toc/pull/1212) was submitted on 28-11-2023. The project opened a [new issue](https://github.com/cncf/toc/issues/1306) using the recommended template on 23-04-2024.
 
 <!-- (TOC Evaluation goes here) -->
-The TOC and project maintainers met during the kick-off meeting of the Graduation process to discuss the changes in the TOC repository regarding the criteria and expectations for moving levels, as well as the freeze period since KubeCon & CloudNativeCon was approaching. Additionally, the TOC provided a list of [suggested action items](https://github.com/cncf/toc/issues/1306#issuecomment-2072815310) that maintainers can start working on and address accordingly.  
+The TOC and project maintainers met during the kick-off meeting of the Graduation process to discuss the changes in the TOC repository regarding the criteria and expectations for moving levels, as well as the freeze period, since KubeCon & CloudNativeCon was approaching at that time. Additionally, the TOC provided a list of [suggested action items](https://github.com/cncf/toc/issues/1306#issuecomment-2072815310) that maintainers can start working on and address accordingly.  
 
 
 
@@ -126,7 +126,7 @@ Since opening the Graduation issue, the project has updated its Governance and i
 - [x] **Governance clearly documents [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/) of project direction.**
 
 <!-- (TOC Evaluation goes here) -->
-Decisions are made by maintainers who are actively involved in the project, and and there is a clear path outlined for people to become maintainers. Current maintainers are spread across several companies and the project is also encouraging new maintainers to join. In the past, non-maintainers have certainly contributed to decision making process during meetings. [Erik](https://github.com/erikgb) is a good example, he has contributed with a lot of discussion in pro daily standups, e.g. approach to take for solving a problem.
+Decisions are made by maintainers who are actively involved in the project, and and there is a clear path outlined for people to become maintainers. Current maintainers are spread across several companies and the project is also encouraging new maintainers to join. In the past, non-maintainers have certainly contributed to decision making process during meetings. [Erik](https://github.com/erikgb) is a good example, he has contributed with a lot of discussion in the daily standups, e.g. suggest an approach to solving a project problem.
 
 The project roadmap is based on the [guide to open-source project roadmaps](https://contribute.cncf.io/maintainers/community/contributor-growth-framework/open-source-roadmaps/#components-of-a-typical-roadmap), which has vendor neutrality at its core.
 
@@ -182,8 +182,8 @@ Recently the project onboarded the following new maintainers:
  - Erik ([cert-manager/community#32](https://github.com/cert-manager/community/pull/32))
 
 There are a few other community members at differing stages along the maintainership path, including:
-- Houssem (Venafi affiliated, has been an approver for istio-csr since January)
-- Peter (Venafi affiliated - member of the cert-manager org and incredibly helpful with a lot of non-code tasks like debugging, testing, admin, taking notes in meetings, etc)
+- Houssem (Venafi affiliated, has been an approver for istio-csr since January I 2024)
+- Peter (Venafi affiliated - member of the cert-manager org and incredibly helpful with a lot of non-code tasks like debugging, testing, admin, taking notes in meetings)
 
 - [x] **Project maintainers from at least 2 organizations that demonstrates survivability.**
 
@@ -255,7 +255,7 @@ cert-manager makes use of GitHub issues and PRs. The following templates are ava
 - [Feature request](https://github.com/cert-manager/cert-manager/blob/fc198e91979a5c1e869d2fc45750de2d6aacea7a/.github/ISSUE_TEMPLATE/feature-request.md)
 - [Submit a Pull Request ](https://github.com/cert-manager/cert-manager/blob/fc198e91979a5c1e869d2fc45750de2d6aacea7a/.github/PULL_REQUEST_TEMPLATE.md)
 
-The project also has a [feature policy](https://cert-manager.io/docs/contributing/policy/)guide to set expectations when an lager change is proposed by the community.
+The project also has a [feature policy](https://cert-manager.io/docs/contributing/policy/) guide to set expectations when an lager change is proposed by the community.
 
 
 - [x] **Project must have, and document, at least one public communications channel for users and/or contributors.**
@@ -429,7 +429,7 @@ Completed security self-assessment can be found [here](https://github.com/cncf/t
 cert-manager completed CNCF-sponsored security audit earlier in 2024. The announcement can be read [here](https://cert-manager.io/announcements/2024/03/18/cert-manager-security-audit/), including the [full report](https://cert-manager.io/docs/announcements/AdaLogics-2023-cert-manager-audit-report.pdf).
 A total of 8 issues were raised as part of the audit, of which 5 were low severity, 2 were moderate severity and 1 was informational. All issues have been resolved as of cert-manager v1.12.8, v1.13.4 and v1.14.3.
 
-The completion of the external security audit by Ada Logics and projects' effort to address the findings demonstrate a strong commitment to security. All eight identified issues have been addressed, which is found commendable by TAG Security members.
+The completion of the external security audit by Ada Logics and projects' effort to address the findings demonstrate a strong commitment to security. All eight identified issues have been addressed, which was found commendable by TAG Security members.
 
 - [x] **Achieve the Open Source Security Foundation (OpenSSF) Best Practices passing badge.**
 
@@ -452,7 +452,7 @@ A list of public adopters can be found in the [USERS.md](https://github.com/cert
 - [x] **Used in appropriate capacity by at least 3 independent + indirect/direct adopters, (these are not required to be in the publicly documented list of adopters)**
 
 <!-- (TOC Evaluation goes here) -->
-The project provided the TOC with a list of adopters for verification of use of the project at the level expected, i.e. production use for graduation, dev/test for incubation.
+The project provided the TOC with a list of adopters for verification of use of the project at the level expected, e.g. production use for graduation, dev/test for incubation.
 
 The project is used by a large base of organisations, most of which prefer to remain anonymous.
 
